@@ -27,6 +27,7 @@ exports.handler = async (event) => {
         // Get the user's message from the body of the request.
         // The body comes in as a string, so we need to parse it as JSON.
         const { message } = JSON.parse(event.body);
+        console.log("Function is using this API Key:", process.env.DEEPSEEK_API_KEY);
 
         // A quick check to make sure the message isn't empty.
         if (!message) {
