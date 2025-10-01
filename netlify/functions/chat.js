@@ -15,10 +15,9 @@
 */
 
 // We still need the 'axios' library to make API requests.
-import axios from 'axios';
+const axios = require('axios');
 
-// This is the main function that Netlify will execute.
-export const handler = async (event) => {
+exports.handler = async (event) => {
     // We only accept POST requests, which is how our frontend sends data.
     if (event.httpMethod !== 'POST') {
         return { statusCode: 405, body: 'Method Not Allowed' };
