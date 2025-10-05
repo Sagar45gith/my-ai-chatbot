@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "description": "Secure backend for the DeepSeek R1 chatbot.",
   "main": "backend.js",
-  "type": "module",
   "scripts": {
     "start": "node backend.js"
   },
   "dependencies": {
-    "axios": "^1.7.2",
+    "axios": "^1.12.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
-  }
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sagar45gith/my-ai-chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sagar45gith/my-ai-chatbot/issues"
+  },
+  "homepage": "https://github.com/Sagar45gith/my-ai-chatbot#readme"
 }
